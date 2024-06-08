@@ -1,0 +1,133 @@
+/* XL */
+
+@media(max-width: 1399px){
+
+}
+
+/* LG */
+
+@media(max-width: 1199px){
+     nav{
+          position: absolute;
+          top: 100%;
+          left: -150px;
+          right: 0;
+          display: none;
+          z-index: 9;
+          background-color: var(--theme-gray) ;
+        }
+        header nav ul{
+        flex-direction: column;
+        }
+        nav ul li{
+        margin: 10px 15px !important;
+        }
+        header nav ul{
+          flex-direction: column;
+        }
+        .toggle{
+          display: block;
+          margin-left: 400px;
+          color: white;
+      }
+      .footer-item h4::before {
+          content: '';
+          left: 26%;
+      }
+      .footer-links h4::before {
+          content: '';
+          left: 34%;
+      }
+      .footer-info h4::before {
+          content: '';
+          top: 18px;
+          left: 45%;    
+      }     
+}
+/* MD */
+
+@media(max-width: 991px){
+      .toggle{
+          margin-left: 170px;
+      }
+      header a{
+          margin-left:10px;
+      }
+      .footer-item h4::before {
+          content: '';
+          left: 26%;
+      }
+      .w-lg-1{
+          width: 100%;
+      }
+      .w-md-3{
+          width: 33.33%;
+      } 
+      .footer-info h4::before {
+          content: '';
+          top: 18px;
+          left: 50%;    
+      }
+      .Tours-title h2::before {
+          content: '';
+          width: 25%;
+          top: 60px;
+          left: 16%;
+      }
+      .Tours-image{
+          margin-top: 50px;
+      }
+}
+
+/* LG */
+
+@media(max-width: 767px){
+     .w-lg-1{
+          width: 100%;
+     }
+     .w-lg-2{
+          width: 50%;
+     }
+     .w-lg-3{
+          width: 33.33%;
+     }
+     .toggle{
+          margin-left: -15px;
+      }
+      .footer-item h4::before {
+          content: '';
+          left: 24%;
+      }
+      .footer-links h4::before {
+          content: '';
+          left: 32%;
+      }
+      .footer-info h4::before {
+          content: '';
+          top: -3px;
+          left: 44%;
+      }
+      .Tours-title h2::before {
+          content: '';
+          width: 25%;
+          top: 95px;
+          left: 16%;
+      }
+      .explore-items h2::before {
+          content: '';
+          width: 20%;
+          top: 70px;
+          left: 12%;
+      }    
+}
+
+/* XS */
+
+@media(max-width: 575px){
+     .w-xs-2{
+          width: 50%;
+     }
+     .w-xs-1{
+          width: 100%;
+     }
+}
